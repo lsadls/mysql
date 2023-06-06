@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "supervisord": {
+      "name": "supervisord",
+      "command": "/usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf",
+	  "preview": {
+		"port": 8080,
+        "prLink": "direct"
+      },
+      "runAtStart": true
+    }
+  }
+}
