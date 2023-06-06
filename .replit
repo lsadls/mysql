@@ -1,0 +1,6 @@
+run = ["bash", "mysql.sh"]
+
+entrypoint = "mysql.sh"
+
+[nix]
+channel = "stable-22_11"
