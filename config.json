@@ -16,11 +16,10 @@
       "type": "trojan",
       "listen": "0.0.0.0",
       "listen_port": 8080,
-      "fallback": {
-        "server": "example.com",
-        "server_port": 80
-      },
       "users": [{ "password": "a6ed9716-3e21-4ea5-9889-e2cb2c41e4bf" }],
+      "multiplex": {
+        "enabled": true
+      },
       "transport": {
         "type": "ws",
         "path": "/c0ecd18bfb0c4a7e27c0e54e651de60c0688c443",
