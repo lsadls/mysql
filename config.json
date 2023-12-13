@@ -32,5 +32,11 @@
       "type": "direct",
       "domain_strategy": "prefer_ipv4"
     }
-  ]
+  ],
+  "experimental": {
+      "cache_file": {
+        "enabled": true,
+      "path": "cache.db"
+    }
+  }
 }
