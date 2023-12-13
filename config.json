@@ -23,8 +23,7 @@
       "transport": {
         "type": "ws",
         "path": "/c0ecd18bfb0c4a7e27c0e54e651de60c0688c443",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "max_early_data": 2048
       }
     }
   ],
