@@ -17,10 +17,13 @@
       "listen": "0.0.0.0",
       "listen_port": 8080,
       "users": [{ "password": "a6ed9716-3e21-4ea5-9889-e2cb2c41e4bf" }],
+      "multiplex": {
+        "enabled": true
+      },
       "transport": {
         "type": "ws",
         "path": "/c0ecd18bfb0c4a7e27c0e54e651de60c0688c443",
-        "max_early_data": 2048,
+        "max_early_data": 2048
       }
     }
   ],
@@ -29,5 +32,11 @@
       "type": "direct",
       "domain_strategy": "prefer_ipv4"
     }
-  ]
+  ],
+  "experimental": {
+      "cache_file": {
+        "enabled": true,
+      "path": "cache.db"
+    }
+  }
 }
