@@ -1,0 +1,31 @@
+proxies:
+- name: 学长的恩情还不完
+  type: trojan
+  server: d1.calcpage.eu.org
+  port: 2096
+  password: a6ed9716-3e21-4ea5-9889-e2cb2cffffff
+  network: ws
+  sni: d1.calcpage.eu.org
+  servername: d1.calcpage.eu.org
+  ws-opts:
+    headers:
+      Host: d1.calcpage.eu.org
+    path: /c0ecd18bfb0c4a7e27c0e54e651de60c0688c443
+  smux:
+    enabled: true
+    max-connections: 16
+- name: 学长的恩情还不完2
+  type: vless
+  server: lastmelody.calcpage.eu.org
+  port: 443
+  uuid: a6ed9716-3e21-4ea5-9889-e2cb2cffffff
+  network: ws
+  udp: true
+  tls: true
+  sni: lastmelody.calcpage.eu.org
+  ws-opts:
+    headers:
+      Host: lastmelody.calcpage.eu.org
+      User-Agent: Chrome
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
